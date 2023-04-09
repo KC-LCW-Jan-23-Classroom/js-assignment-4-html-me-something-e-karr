@@ -1,6 +1,6 @@
 /* Write your CSS here! */
 :root {
-    --content-margin: 0 15rem;
+    --content-margin: 2rem 15rem;
 }
 body {
     margin: 8px;
@@ -27,6 +27,16 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     border-radius: 5px;
+}
+
+h2 {
+    margin: var(--content-margin);
+    text-align: center;
+    background-color: rgb(208, 243, 180);
+    padding: 1rem 0;
+}
+
+article {
 }
 
 .funParagraph {
