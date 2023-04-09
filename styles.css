@@ -6,3 +6,9 @@
 #mainHeading {
     color: red;
 }
+
+img {
+    height: 15rem;
+    width: 25rem;
+    object-fit: contain;
+}
