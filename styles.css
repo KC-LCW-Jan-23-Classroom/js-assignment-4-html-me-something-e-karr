@@ -1,14 +1,25 @@
 /* Write your CSS here! */
-.funParagraph {
-    color: green;
-}
 
-#mainHeading {
-    color: red;
+body {
+    margin: 8px;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 img {
     height: 15rem;
     width: 25rem;
     object-fit: contain;
+}
+
+p {
+    padding: 0 20rem;
+}
+
+.funParagraph {
+    color: green;
+}
+
+#mainHeading {
+    color: red;
 }
