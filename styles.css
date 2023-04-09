@@ -16,7 +16,7 @@ img {
 }
 
 p {
-    padding: 0 20rem;
+    padding: 0 10rem;
 }
 
 h1 {
@@ -30,13 +30,15 @@ h1 {
 }
 
 h2 {
-    margin: var(--content-margin);
+    
     text-align: center;
     background-color: rgb(208, 243, 180);
     padding: 1rem 0;
 }
 
 article {
+    margin: var(--content-margin);
+    background-color: lightgray;
 }
 
 .funParagraph {
