@@ -1,9 +1,12 @@
 /* Write your CSS here! */
-
+:root {
+    --content-margin: 0 15rem;
+}
 body {
     margin: 8px;
     display: block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(156, 195, 236);
 }
 
 img {
@@ -14,6 +17,16 @@ img {
 
 p {
     padding: 0 20rem;
+}
+
+h1 {
+    margin: var(--content-margin);
+    text-align: center;
+    background-color: rgb(179, 221, 247);
+    padding: 2rem 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
 }
 
 .funParagraph {
