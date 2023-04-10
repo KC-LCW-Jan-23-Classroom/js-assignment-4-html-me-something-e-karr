@@ -49,9 +49,11 @@ div {
 
 #mainHeading {
     color: red;
+    display: none;
 }
 
 .funParagraph {
     color: green;
+    display: none;
 }
 
