@@ -1,1 +1,111 @@
 /* Write your CSS here! */
+@font-face {
+    font-family: "Titan One";
+    src: url(./fonts/Titan_One/TitanOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Kalam";
+    src: url(./fonts/Kalam/Kalam-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Archivo";
+    src: url(./fonts/Archivo/Archivo-VariableFont_wdth\,wght.ttf);
+}
+
+:root {
+    --content-margin: 2rem 5vw;
+}
+
+body {
+    margin: 8px;
+    display: block;
+    font-family: 'Archivo', sans-serif;
+    background-color: rgb(156, 195, 236);
+}
+
+img {
+    height: 200px;
+    width: 325px;
+    object-fit: cover;
+    border: 2px solid darkgrey;
+    border-radius: 10px;
+}
+
+p {
+    padding: 0 7vw;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+h1 {
+    margin: var(--content-margin);
+    text-align: center;
+    background-color: rgb(179, 221, 247);
+    padding: 2rem 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    font-size: 2.5rem;
+    color: rgb(54, 54, 54);
+    font-family: 'Titan One', cursive;
+    font-weight: 400;
+}
+
+h2 {
+    
+    text-align: center;
+    background-color: rgb(208, 243, 180);
+    padding: 1rem 0;
+    border-radius: 5px 5px 0 0;
+    font-size: 2rem;
+    color: rgb(102, 100, 100);
+    font-family: 'Kalam', cursive;
+}
+
+h3 {
+    text-align: center;
+    font-size: .75rem;
+    font-weight: 575;
+}
+
+article {
+    margin: var(--content-margin);
+    background-color: rgb(225, 225, 225);
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: .75rem;
+}
+
+.photo-containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 3px 10px;
+    padding: 0 10px 10px;
+}
+
+.photo-containers>div {
+    text-align: center;
+}
+
+#mainHeading {
+    color: red;
+    display: none;
+}
+
+.funParagraph {
+    color: green;
+    display: none;
+}
+
+@media screen and (max-width: 400px) {
+    img {
+        height: 75%;
+        width: 75%;
+    }
+}
