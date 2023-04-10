@@ -61,7 +61,7 @@ article {
 .photo-containers {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 3px 10px;
 }
 
