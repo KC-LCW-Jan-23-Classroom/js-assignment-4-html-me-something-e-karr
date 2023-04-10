@@ -1,6 +1,6 @@
 /* Write your CSS here! */
 :root {
-    --content-margin: 2rem 15rem;
+    --content-margin: 2rem 15vw;
 }
 body {
     margin: 8px;
@@ -10,13 +10,14 @@ body {
 }
 
 img {
-    height: 15rem;
-    width: 25rem;
+    height: 20vh;
+    width: 25vw;
     object-fit: contain;
 }
 
 p {
-    padding: 0 10rem;
+    padding: 0 5vw;
+    font-size: 1rem;
 }
 
 h1 {
@@ -41,10 +42,16 @@ article {
     background-color: lightgray;
 }
 
-.funParagraph {
-    color: green;
+div {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 #mainHeading {
     color: red;
 }
+
+.funParagraph {
+    color: green;
+}
+
