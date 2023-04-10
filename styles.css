@@ -15,8 +15,8 @@ body {
 }
 
 img {
-    height: 20vh;
-    width: 25vw;
+    height: 300px;
+    width: 350px;
     object-fit: contain;
 }
 
@@ -63,30 +63,7 @@ article {
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 3px 10px;
-}
-
-#city-league-heading1 {
-
-}
-
-#city-league-heading2 {
-
-}
-
-#city-league-heading3 {
-
-}
-
-#city-league-img1 {
-    justify-self: center;
-}
-
-#city-league-img2 {
-    
-}
-
-#city-league-img3 {
-    
+    padding: 0 10px 10px;
 }
 
 #mainHeading {
