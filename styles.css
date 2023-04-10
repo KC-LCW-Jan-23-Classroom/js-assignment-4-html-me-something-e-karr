@@ -16,6 +16,7 @@ img {
     width: 325px;
     object-fit: cover;
     border: 2px solid darkgrey;
+    border-radius: 10px;
 }
 
 p {
