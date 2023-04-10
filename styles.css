@@ -3,6 +3,7 @@
 :root {
     --content-margin: 2rem 5vw;
 }
+
 body {
     margin: 8px;
     display: block;
@@ -53,6 +54,11 @@ article {
     margin: var(--content-margin);
     background-color: rgb(225, 225, 225);
     border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: .75rem;
 }
 
 .photo-containers {
