@@ -1,6 +1,11 @@
 /* Write your CSS here! */
+
+html {
+    font-size: 16px;
+}
+
 :root {
-    --content-margin: 2rem 15vw;
+    --content-margin: 2rem 5vw;
 }
 body {
     margin: 8px;
@@ -24,10 +29,12 @@ h1 {
     margin: var(--content-margin);
     text-align: center;
     background-color: rgb(179, 221, 247);
-    padding: 2rem 0;
+    padding: 2rem 1rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     border-radius: 5px;
+    font-size: 2rem;
+    color: rgb(54, 54, 54);
 }
 
 h2 {
@@ -36,11 +43,13 @@ h2 {
     background-color: rgb(208, 243, 180);
     padding: 1rem 0;
     border-radius: 5px 5px 0 0;
+    font-size: 1.5rem;
+    color: rgb(102, 100, 100)
 }
 
 article {
     margin: var(--content-margin);
-    background-color: lightgray;
+    background-color: rgb(225, 225, 225);
     border-radius: 5px;
 }
 
