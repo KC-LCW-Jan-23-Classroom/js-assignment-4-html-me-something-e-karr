@@ -62,6 +62,7 @@ article {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 3px 10px;
 }
 
 #city-league-heading1 {
