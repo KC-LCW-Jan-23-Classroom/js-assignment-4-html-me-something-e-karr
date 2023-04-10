@@ -58,11 +58,10 @@ article {
     border-radius: 5px;
 }
 
-#city-league-div {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 5fr;
-    justify-items: center;
+.photo-containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #city-league-heading1 {
@@ -78,13 +77,11 @@ article {
 }
 
 #city-league-img1 {
-    grid-column: 1 / 2;
-    grid-row: 2;
+    justify-self: center;
 }
 
 #city-league-img2 {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    
 }
 
 #city-league-img3 {
